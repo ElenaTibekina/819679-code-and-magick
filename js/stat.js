@@ -124,7 +124,7 @@ window.renderStatistics = function (ctx, names, times) {
     var columnHeight = playerTime * BAR_HEIGHT / (maxTime - 0);
 
     ctx.fillStyle = getPlayerColor(names[j]);
-    ctx.fillRect(INICIAL_X  + j * COLUMN_INDENT, INICIAL_Y, COLUMN_WIDTH, columnHeight * (-1));
+    ctx.fillRect(INICIAL_X + j * COLUMN_INDENT, INICIAL_Y, COLUMN_WIDTH, columnHeight * (-1));
 
     ctx.fillStyle = '#000000';
     ctx.fillText(playerTime, INICIAL_X  + j * COLUMN_INDENT, INICIAL_Y - columnHeight - LINE_HEIGHT / 2);
