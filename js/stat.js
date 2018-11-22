@@ -127,8 +127,8 @@ window.renderStatistics = function (ctx, names, times) {
     ctx.fillRect(INICIAL_X + j * COLUMN_INDENT, INICIAL_Y, COLUMN_WIDTH, columnHeight * (-1));
 
     ctx.fillStyle = '#000000';
-    ctx.fillText(playerTime, INICIAL_X  + j * COLUMN_INDENT, INICIAL_Y - columnHeight - LINE_HEIGHT / 2);
-    ctx.fillText(names[j], INICIAL_X  + j * COLUMN_INDENT, INICIAL_Y + LINE_HEIGHT);
+    ctx.fillText(playerTime, INICIAL_X + j * COLUMN_INDENT, INICIAL_Y - columnHeight - LINE_HEIGHT / 2);
+    ctx.fillText(names[j], INICIAL_X + j * COLUMN_INDENT, INICIAL_Y + LINE_HEIGHT);
   }
 
 };
