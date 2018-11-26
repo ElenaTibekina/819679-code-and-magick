@@ -42,7 +42,3 @@ for (var i = 0; i < 4; i++) {
 
 similarList.appendChild(fragment);
 setupWindow.querySelector('.setup-similar').classList.remove('hidden');
-
-
-
-
